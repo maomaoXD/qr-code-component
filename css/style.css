@@ -14,4 +14,37 @@ body {
   color: #575757;
   font-weight: 300;
   line-height: 1.6;
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  background-color: #D5E1EF;
+  height: 100vh; }
+
+.container {
+  display: grid;
+  place-items: center;
+  justify-items: center; }
+
+.qr__content {
+  max-width: 32rem;
+  background-color: #fff;
+  padding: 1.6rem;
+  border-radius: 15px;
+  box-shadow: 1px 1px 11px 2px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 1px 1px 11px 2px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 1px 1px 11px 2px rgba(0, 0, 0, 0.1); }
+
+.qr__image {
+  width: 100%;
+  border-radius: 10px; }
+
+.qr__textcontainer {
+  padding: 1.2rem; }
+
+.heading-1 {
+  font-weight: 800;
+  font-size: 2.2rem;
+  text-align: center;
+  line-height: 1.3; }
+
+.qr__text {
+  text-align: center;
+  padding-top: 1.5rem; }

@@ -3,12 +3,16 @@ $color-primary: #7090c7;
 $color-primary-dark: #264073;
 
 $color-white: #fff;
+$color-gray-light: #D5E1EF;
 $color-gray: #575757;
 
 
 // FONT VARIABLES
 $font-primary: 'Outfit', sans-serif;
 $font-display: 'Outfit', sans-serif;
+
+//RESPONSIVE BREAKPOINTS
+$bp-small: 37.5em; // 600px / 16
 
 *,
 *::before,
@@ -29,4 +33,16 @@ body {
     font-weight: 300;
     line-height: 1.6;
     font-size: 1.5rem;
+    background-color: $color-gray-light;
+    height: 100vh;
+    
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    justify-items: center;
+    
+    
+    
 }
